@@ -1,0 +1,22 @@
+{
+  "name": "johnnymast/php-career",
+  "description": "our fun litle project",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaravelUK\\PHPCareer\\": "src/",
+      "LaravelUK\\PHPCareer\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "phpspec/phpspec": "3.2.3",
+    "phpunit/phpunit": "5.7.19"
+  }
+}

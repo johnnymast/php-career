@@ -1,0 +1,5 @@
+suites:
+  kata_core:
+    namespace: LaravelUK\PHPCareer
+    psr4_prefix: LaravelUK\PHPCareer
+    spec_prefix: spec\LaravelUK\PHPCareer
